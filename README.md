@@ -8,6 +8,8 @@ while(i < 100): #mientras que i sea menor a 100
   j = i**2 #j será el cuadrado del valor de i
   print("El cuadrado del número" ,i, "es" ,j) #se imprime los valores de las variables respectivamente
 ```
+##### Diagrama de flujo:
+[![Captura-de-pantalla-2023-03-27-213846.png](https://i.postimg.cc/gcZvcWJL/Captura-de-pantalla-2023-03-27-213846.png)](https://postimg.cc/s13BKb53)
 ##### **2.** Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 ```python
 i : int = 0 #se declara i como entero e inicia desde 0
@@ -23,7 +25,9 @@ while(i < 1000): #Mientras que el valor i sea menor a 1000
   if i % 2 == 0: #Si el residuo de la operación i/2 es igual a 0, imprimirá el valor de i y por ende, es par.
     print (i)
 ```
-##### **3.** Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
+##### Diagrama de flujo
+[![Captura-de-pantalla-2023-03-27-215021.png](https://i.postimg.cc/N0Z5ZKRJ/Captura-de-pantalla-2023-03-27-215021.png)](https://postimg.cc/p9YWFXGz)
+#####**3.** Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ```python
 i = int(input("Ingrese cualquier número natural mayor o igual a 2: ")) #se declara i como entro y se le pide al usuario que defina la variable
 print("Los números pares que son mayores o iguales a 2 y menores o iguales al número" ,i, "son:") #Se imprime este mensaje
