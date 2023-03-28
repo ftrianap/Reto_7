@@ -36,6 +36,8 @@ while i >= 2: #Mientras que i sea mayor o igual a 2
         print(i)
     i -= 1 #Se le resta 1 al valor de i, y se repetirá el ciclo hasta que la condición de éste cumpla
 ```
+##### Diagrama de flujo:
+[![Captura-de-pantalla-2023-03-27-215932.png](https://i.postimg.cc/mZ120ZrJ/Captura-de-pantalla-2023-03-27-215932.png)](https://postimg.cc/yWBHRHcy)
 ##### **4.** En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 ```python
 a : float = 25000000 #se declara a como flotante e inicia desde 25000000
