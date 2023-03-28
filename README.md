@@ -23,7 +23,7 @@ while(i < 1000): #Mientras que el valor i sea menor a 1000
   if i % 2 == 0: #Si el residuo de la operación i/2 es igual a 0, imprimirá el valor de i y por ende, es par.
     print (i)
 ```
-#####**3.** Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
+##### **3.** Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ```python
 i = int(input("Ingrese cualquier número natural mayor o igual a 2: ")) #se declara i como entro y se le pide al usuario que defina la variable
 print("Los números pares que son mayores o iguales a 2 y menores o iguales al número" ,i, "son:") #Se imprime este mensaje
